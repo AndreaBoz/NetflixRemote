@@ -77,12 +77,13 @@ The phone remembers the last address and reconnects automatically. The receiver 
 Requirements: Android Studio with an Android SDK for API 35, and JDK 17 or later.
 
 ```bash
+cd android
 ./gradlew assembleDebug
 ```
 
-The generated APK is written to `app/build/outputs/apk/debug/app-debug.apk`.
+The generated APK is written to `android/app/build/outputs/apk/debug/app-debug.apk`.
 
-`local.properties` is deliberately untracked and contains no project-specific paths. Let Android Studio create it, or configure `ANDROID_HOME` / `ANDROID_SDK_ROOT` for your local SDK.
+`android/local.properties` is deliberately untracked and contains no project-specific paths. Let Android Studio create it, or configure `ANDROID_HOME` / `ANDROID_SDK_ROOT` for your local SDK.
 
 ## Security and privacy
 
