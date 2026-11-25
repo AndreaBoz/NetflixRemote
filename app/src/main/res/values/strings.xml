@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Netflix Remote</string>
+    <string name="title_agent">Tablet (ricevitore)</string>
+    <string name="title_remote">Telecomando</string>
+    <string name="accessibility_description">Permette al telecomando di inviare play/pausa e avanti/indietro all\'app Netflix su questo tablet.</string>
+
+    <string name="choose_role">Questo dispositivo e\'…</string>
+    <string name="choose_hint">Installa la stessa app su entrambi i dispositivi e scegli il ruolo.</string>
+    <string name="role_agent">TABLET\ncollegato alla TV via HDMI</string>
+    <string name="role_remote">TELEFONO\nil telecomando</string>
+    <string name="change_role">Cambia ruolo</string>
+
+    <!-- tablet -->
+    <string name="pin_label">PIN da digitare sul telefono</string>
+    <string name="permissions">1. Permessi</string>
+    <string name="btn_accessibility">Attiva Accessibilita\' (obbligatorio)</string>
+    <string name="btn_notifications">Attiva Accesso notifiche (consigliato)</string>
+    <string name="perm_hint">Accessibilita\': serve a simulare i tocchi su Netflix.\nAccesso notifiche: se Netflix pubblica una sessione media, i comandi diventano precisi e non servono le coordinate.</string>
+    <string name="service_section">2. Servizio</string>
+    <string name="start_service">Avvia servizio</string>
+    <string name="stop_service">Ferma servizio</string>
+    <string name="open_netflix">Apri Netflix</string>
+    <string name="advanced">3. Avanzate</string>
+    <string name="backend_label">Modalita\' comandi</string>
+    <string name="backend_auto">Automatica (consigliata)</string>
+    <string name="backend_media">Solo sessione media</string>
+    <string name="backend_gesture">Solo gesture</string>
+    <string name="skip_label">Posizione pulsante "Salta intro" / "Prossimo episodio", in % dello schermo</string>
+    <string name="skip_x">X %</string>
+    <string name="skip_y">Y %</string>
+    <string name="save">Salva</string>
+    <string name="saved">Salvato</string>
+    <string name="invalid_percent">Inserisci due numeri fra 0 e 100</string>
+
+    <string name="st_accessibility">Accessibilita\': %1$s</string>
+    <string name="st_notifications">Accesso notifiche: %1$s</string>
+    <string name="st_address">Indirizzo: %1$s : %2$d</string>
+    <string name="st_service">Servizio: %1$s — telecomandi collegati: %2$d</string>
+    <string name="on">attivo</string>
+    <string name="off">fermo</string>
+    <string name="missing">DA ATTIVARE</string>
+
+    <string name="channel_name">Servizio telecomando</string>
+    <string name="notif_title">Telecomando Netflix attivo</string>
+    <string name="notif_text">%1$s:%2$d — collegati: %3$d</string>
+
+    <!-- telefono -->
+    <string name="host_hint">IP del tablet (es. 192.168.1.42)</string>
+    <string name="pin_hint">PIN a 6 cifre</string>
+    <string name="connect">Connetti</string>
+    <string name="scan">Cerca</string>
+    <string name="scanning">Ricerca del tablet in corso…</string>
+    <string name="found">Trovato: %1$s</string>
+    <string name="disconnected">Non collegato</string>
+    <string name="not_connected">Non collegato al tablet</string>
+    <string name="need_host_pin">Servono indirizzo IP e PIN a 6 cifre</string>
+
+    <string name="b_back30">−30s</string>
+    <string name="b_back10">−10s</string>
+    <string name="b_playpause">Play / Pausa</string>
+    <string name="b_fwd10">+10s</string>
+    <string name="b_fwd30">+30s</string>
+    <string name="b_skip">Salta intro / Prossimo ep.</string>
+    <string name="b_nav">Indietro</string>
+    <string name="b_volup">Volume +</string>
+    <string name="b_voldown">Volume −</string>
+    <string name="b_mute">Muto</string>
+    <string name="b_launch">Apri Netflix sul tablet</string>
+</resources>

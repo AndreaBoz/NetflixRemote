@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_role"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        android:text="@string/choose_hint" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAgent"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:text="@string/role_agent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRemote"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/role_remote" />
+</LinearLayout>

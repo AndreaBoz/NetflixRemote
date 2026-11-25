@@ -1,0 +1,29 @@
+# Gradle and Android build output
+.gradle/
+**/build/
+.cxx/
+.externalNativeBuild/
+captures/
+*.hprof
+
+# Local machine and IDE configuration
+local.properties
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Signing material must never be committed
+*.jks
+*.keystore
+key.properties
+
+# Generated install packages. The distributable APK in the repository root is
+# intentionally retained for end users; release APKs should normally be GitHub
+# Release assets instead.
+*.apk
+!NetflixRemote.apk
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db

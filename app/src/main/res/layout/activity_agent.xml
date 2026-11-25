@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pin_label" />
+
+        <TextView
+            android:id="@+id/tvPin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.2" />
+
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:layout_marginVertical="16dp" android:background="#33888888" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/permissions" android:textStyle="bold" android:textSize="18sp" />
+
+        <TextView android:id="@+id/tvAccessibility" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginTop="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAccessibility"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/btn_accessibility" />
+
+        <TextView android:id="@+id/tvNotifications" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginTop="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNotifications"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/btn_notifications" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" android:textSize="12sp" android:text="@string/perm_hint" />
+
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:layout_marginVertical="16dp" android:background="#33888888" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/service_section" android:textStyle="bold" android:textSize="18sp" />
+
+        <TextView android:id="@+id/tvAddress" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginTop="8dp" />
+
+        <TextView android:id="@+id/tvService" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnToggle"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/start_service" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNetflix"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/open_netflix" />
+
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:layout_marginVertical="16dp" android:background="#33888888" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/advanced" android:textStyle="bold" android:textSize="18sp" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" android:text="@string/backend_label" />
+
+        <RadioGroup android:id="@+id/rgBackend"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/rbAuto" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/backend_auto" />
+            <RadioButton android:id="@+id/rbMedia" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/backend_media" />
+            <RadioButton android:id="@+id/rbGesture" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/backend_gesture" />
+        </RadioGroup>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:textSize="12sp" android:text="@string/skip_label" />
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical">
+            <EditText android:id="@+id/etSkipX" android:layout_width="0dp" android:layout_weight="1"
+                android:layout_height="wrap_content" android:inputType="number"
+                android:hint="@string/skip_x" android:autofillHints="" />
+            <EditText android:id="@+id/etSkipY" android:layout_width="0dp" android:layout_weight="1"
+                android:layout_height="wrap_content" android:inputType="number"
+                android:hint="@string/skip_y" android:autofillHints="" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnSaveSkip"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/save" />
+        </LinearLayout>
+
+        <TextView android:id="@+id/tvDetail" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="16dp"
+            android:textSize="11sp" android:fontFamily="monospace" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRole"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:text="@string/change_role" />
+    </LinearLayout>
+</ScrollView>
